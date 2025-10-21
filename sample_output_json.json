@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "currency": "USD",
+    "start_date": "2025-10-20",
+    "horizon_years": 10,
+    "contribution_frequency": "monthly",
+    "version": "mvp-1.0"
+  },
+  "inputs_echo": {
+    "monthly_contribution_amount": 500.00,
+    "risk_tolerance": "Average",
+    "interests": "technology, healthcare, renewable energy"
+  },
+  "recommended_allocation": [
+    {
+      "ticker": "VTI",
+      "name": "Vanguard Total Stock Market ETF",
+      "category": "broad_index",
+      "weight_pct": 40.00
+    },
+    {
+      "ticker": "VGT",
+      "name": "Vanguard Information Technology ETF",
+      "category": "sector_etf",
+      "weight_pct": 12.00
+    },
+    {
+      "ticker": "XLV",
+      "name": "Health Care Select Sector SPDR Fund",
+      "category": "sector_etf",
+      "weight_pct": 10.00
+    },
+    {
+      "ticker": "ICLN",
+      "name": "iShares Global Clean Energy ETF",
+      "category": "sector_etf",
+      "weight_pct": 8.00
+    },
+    {
+      "ticker": "TAN",
+      "name": "Invesco Solar ETF",
+      "category": "sector_etf",
+      "weight_pct": 5.00
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "category": "individual_stock",
+      "weight_pct": 6.50
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "category": "individual_stock",
+      "weight_pct": 6.50
+    },
+    {
+      "ticker": "VXUS",
+      "name": "Vanguard Total International Stock ETF",
+      "category": "broad_index",
+      "weight_pct": 12.00
+    }
+  ],
+  "assumptions": {
+    "median_expected_cagr_annual": 0.0790
+  },
+  "summary": {
+    "monthly_contribution_amount": 500.00,
+    "total_years": 10,
+    "total_contributions": 60000.00,
+    "median_expected_cagr_annual": 0.0790,
+    "median_ending_balance_year10": 93195.00
+  },
+  "projection": {
+    "columns": [
+      "Year",
+      "Date",
+      "Annual_Contribution",
+      "Cumulative_Contributions",
+      "Expected_Balance_50th"
+    ],
+    "annual_rows": [
+      {
+        "Year": 1,
+        "Date": "2025-10-20",
+        "Annual_Contribution": 6000.00,
+        "Cumulative_Contributions": 6000.00,
+        "Expected_Balance_50th": 6474.00
+      },
+      {
+        "Year": 2,
+        "Date": "2026-10-20",
+        "Annual_Contribution": 6000.00,
+        "Cumulative_Contributions": 12000.00,
+        "Expected_Balance_50th": 13459.15
+      },
+      {
+        "Year": 3,
+        "Date": "2027-10-20",
+        "Annual_Contribution": 6000.00,
+        "Cumulative_Contributions": 18000.00,
+        "Expected_Balance_50th": 20996.42
+      },
+      {
+        "Year": 4,
+        "Date": "2028-10-20",
+        "Annual_Contribution": 6000.00,
+        "Cumulative_Contributions": 24000.00,
+        "Expected_Balance_50th": 29129.14
+      },
+      {
+        "Year": 5,
+        "Date": "2029-10-20",
+        "Annual_Contribution": 6000.00,
+        "Cumulative_Contributions": 30000.00,
+        "Expected_Balance_50th": 37804.34
+      },
+      {
+        "Year": 6,
+        "Date": "2030-10-20",
+        "Annual_Contribution": 6000.00,
+        "Cumulative_Contributions": 36000.00,
+        "Expected_Balance_50th": 47264.88
+      },
+      {
+        "Year": 7,
+        "Date": "2031-10-20",
+        "Annual_Contribution": 6000.00,
+        "Cumulative_Contributions": 42000.00,
+        "Expected_Balance_50th": 57472.81
+      },
+      {
+        "Year": 8,
+        "Date": "2032-10-20",
+        "Annual_Contribution": 6000.00,
+        "Cumulative_Contributions": 48000.00,
+        "Expected_Balance_50th": 68487.16
+      },
+      {
+        "Year": 9,
+        "Date": "2033-10-20",
+        "Annual_Contribution": 6000.00,
+        "Cumulative_Contributions": 54000.00,
+        "Expected_Balance_50th": 80371.64
+      },
+      {
+        "Year": 10,
+        "Date": "2034-10-20",
+        "Annual_Contribution": 6000.00,
+        "Cumulative_Contributions": 60000.00,
+        "Expected_Balance_50th": 93195.00
+      }
+    ]
+  }
+}
